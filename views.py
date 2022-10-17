@@ -9,7 +9,7 @@ CATEGORIES = [
 ]
 
 # GET /categories
-#POST /category
+# POST /category
 
 @app.route("/categories")
 def get_categories():
